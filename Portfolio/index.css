@@ -1,0 +1,169 @@
+/* html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+} */
+
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: rgb(57, 69, 75);
+    text-decoration: none;
+}
+.navbar-links {
+    padding-right: 2%;
+}
+.navbar-links a {
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 20.4px;
+    font-weight: 300;
+    letter-spacing: 0.566667px;
+    line-height: 61.2px;
+    text-decoration: none solid rgb(57, 69, 75);
+    text-align: left;
+    word-spacing: 0px;
+}
+
+.full-page {
+    margin-top: 60px;
+    height: 100vh;
+}
+
+#first-page {
+    background-image: url(/images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-page-heading {
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 96.3333px;
+    font-weight: 900;
+    letter-spacing: -4.81667px;
+    line-height: 96.3333px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    color: white;
+}
+.first-page-para {
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 22.6667px;
+    font-weight: 300;
+    letter-spacing: 0.566667px;
+    /* line-height: 39.6667px; */
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    color: white;
+}
